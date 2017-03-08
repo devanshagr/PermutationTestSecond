@@ -1,4 +1,5 @@
-Permutation <- function(df,c1,c2,n,w1,w2){
+Permutation <- function(df1,c1,c2,n,w1,w2){
+  df <- as.data.frame(df1)
   D_null<-c()
   V1<-df[,c1]
   V2<-df[,c2]
